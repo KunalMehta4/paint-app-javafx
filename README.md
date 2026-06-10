@@ -17,22 +17,13 @@ This project was developed using Java 22, JavaFX, and Maven. The architecture fo
 with the Observer Pattern used for UI synchronization and the Command Pattern used to encapsulate user actions such as copy,
 paste, save, and undo/redo. Serialization is used to support the persistent storage of drawings and application state.
 
-Project Structure
-Assignment2/
-├── paint/
-│   ├── Paint.java
-│   ├── PaintModel.java
-│   ├── View.java
-│   ├── PaintPanel.java
-│   ├── Mode.java
-│   ├── AttributesModel.java
-│   ├── command/
-│   └── shape/
-
 Running the Application
 Clone the repository, navigate to the project directory, and run the application using Maven:
+
 git clone https://github.com/KunalMehta4/paint-app-javafx.git
+
 cd paint-app-javafx/Assignment2
+
 mvn clean javafx:run
 
 Design Highlights
